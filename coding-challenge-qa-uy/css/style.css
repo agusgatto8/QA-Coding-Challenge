@@ -3,6 +3,7 @@ body {
 }
 
 img {
+    transition: left 0.1s, top 0.1s;
     display: block;
     position: absolute;
     width: 60px;
