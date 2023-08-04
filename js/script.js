@@ -43,7 +43,7 @@ window.addEventListener("DOMContentLoaded", function () {
 			pacmanY + pacman.offsetHeight > ghost.offsetTop &&
 			pacmanY < ghost.offsetTop + ghost.offsetHeight
 		) {
-			alert("Game over!");
+			alert("Perdiste!");
             pacmanResetPosition();
 		}
 	});
